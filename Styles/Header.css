@@ -1,0 +1,89 @@
+header {
+  color: white;
+}
+
+.top__header address {
+  font-style: normal;
+}
+
+.menu__list .item__menu a {
+  color: white;
+}
+
+.header__container {
+  max-width: 1459px;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+.top__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.social__media .fa:hover {
+  color: aquamarine;
+}
+
+.main__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  min-height: 80px;
+}
+
+.logo__image {
+  width: 50px;
+  height: auto;
+}
+
+.list__menu {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+.menu__list {
+  display: flex;
+  gap: 20px;
+}
+
+.item__menu {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.item__menu:after {
+  content: "";
+  display: block;
+  position: relative;
+  margin: 0;
+  width: 0%;
+  height: 2px;
+  top: 10px;
+  background-color: rgb(255, 255, 255);
+  transition: width 0.3s ease;
+}
+
+.item__menu:hover::after {
+  width: 100%;
+}
+
+.login__btn {
+  width: 110px;
+  height: 42px;
+  background-color: white;
+  border-radius: 50px;
+  border: none;
+  font-weight: bold;
+  font-family: inherit;
+  transition: background-color var(--transition-fast);
+  cursor: pointer;
+}
+
+.login__btn:hover {
+  background-color: #15ceff;
+}

@@ -1,0 +1,21 @@
+:root {
+  --transition-fast: 200ms ease;
+  --color-primary: #0047bf;
+  --color-text-light: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration-line: none;
+}
+/* Body */
+body {
+  font-family: kalameh;
+  font-style: normal;
+  text-decoration: none;
+  min-height: 100vh;
+  padding-top: 10px;
+  background: linear-gradient(to left, #314755, #26a0da);
+}
