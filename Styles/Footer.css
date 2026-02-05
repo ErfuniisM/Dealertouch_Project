@@ -15,17 +15,16 @@ footer {
   gap: 120px;
 }
 
-.footer__link a {
-  color: inherit;
-}
 .footer__item {
   display: flex;
   flex-direction: column;
   gap: 25px;
 }
+
 .footer__logo {
   max-width: 10rem;
 }
+
 .footer__detail__dealertouch {
   max-width: 25rem;
 }
@@ -38,6 +37,10 @@ footer {
 .footer__link {
   display: flex;
   flex-direction: column;
+}
+
+.footer__link a {
+  color: inherit;
 }
 
 .footer__contact__button {

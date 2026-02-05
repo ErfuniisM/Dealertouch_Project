@@ -2,14 +2,6 @@ header {
   color: white;
 }
 
-.top__header address {
-  font-style: normal;
-}
-
-.menu__list .item__menu a {
-  color: white;
-}
-
 .header__container {
   max-width: 1459px;
   margin-inline: auto;
@@ -24,6 +16,10 @@ header {
   font-weight: 400;
 }
 
+.top__header address {
+  font-style: normal;
+}
+
 .social__media .fa:hover {
   color: aquamarine;
 }
@@ -36,7 +32,7 @@ header {
   min-height: 80px;
 }
 
-.logo__image {
+.main__header img {
   width: 50px;
   height: auto;
 }
@@ -45,31 +41,6 @@ header {
   display: flex;
   gap: 60px;
   align-items: center;
-}
-.menu__list {
-  display: flex;
-  gap: 20px;
-}
-
-.item__menu {
-  list-style-type: none;
-  font-size: 20px;
-}
-
-.item__menu:after {
-  content: "";
-  display: block;
-  position: relative;
-  margin: 0;
-  width: 0%;
-  height: 2px;
-  top: 10px;
-  background-color: rgb(255, 255, 255);
-  transition: width 0.3s ease;
-}
-
-.item__menu:hover::after {
-  width: 100%;
 }
 
 .login__btn {
@@ -86,4 +57,34 @@ header {
 
 .login__btn:hover {
   background-color: #15ceff;
+}
+
+.menu__list {
+  display: flex;
+  gap: 20px;
+}
+
+.item__menu {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.menu__list .item__menu a {
+  color: white;
+}
+
+.item__menu:after {
+  content: "";
+  display: block;
+  position: relative;
+  margin: 0;
+  width: 0%;
+  height: 2px;
+  top: 10px;
+  background-color: rgb(255, 255, 255);
+  transition: width 0.3s ease;
+}
+
+.item__menu:hover::after {
+  width: 100%;
 }
