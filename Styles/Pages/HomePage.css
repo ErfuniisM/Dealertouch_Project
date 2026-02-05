@@ -1,38 +1,56 @@
 @import url("../Header.css");
 @import url("../Footer.css");
 @import url("../Body.css");
+@import url("../Common.css");
 
 /* Section Style */
+
+.main__page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 
 .section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-block: 80px;
+  padding: 100px 0;
 }
 
 /* Section 1 */
 
-.main {
+.section_1 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  max-width: 1459px;
   color: white;
   gap: 60px;
+  position: relative;
+  padding-bottom: 0;
+  min-height: 100vh;
 }
 
-.title__text__content {
-  text-align: center;
+.section_1 img {
+  position: absolute;
+  bottom: 0;
+  width: 1459px;
 }
 
-.title__headline {
+.section_1 header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.title__text__content h3 {
   font-size: 47px;
   font-weight: 700;
 }
 
-.demo__book__button {
+.section_1 button {
   max-width: 452px;
   width: 100%;
   height: 86px;
@@ -45,19 +63,14 @@
   transition: background-color var(--transition-fast);
 }
 
-.demo__book__button:hover {
+.section_1 button:hover {
   background-color: hsl(218, 28%, 29%);
-}
-
-.main__image {
-  width: 100%;
-  height: auto;
 }
 
 /* Section 2 */
 
 .section_2 {
-  background-color: white;
+  padding: 50px 0;
 }
 
 .feature__content {
@@ -92,7 +105,6 @@
 /* Section 3 */
 
 .section_3 {
-  background-color: #001e51;
   color: white;
 }
 
@@ -186,7 +198,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #001e51;
+
   color: white;
 }
 
